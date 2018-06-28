@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.example.ayush.smartparking.MyView
+        android:id="@+id/canavas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="6"
+        android:padding="30dp"
+        android:rowCount="6">
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P5"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="0">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="0">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_row="0">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="0">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P6"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P4"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="1">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout11"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P11"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout12"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P12"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="1">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="1"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P7"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="2">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout13"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P13"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout14"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P14"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="2">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout8"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="3"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P2"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="3">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout15"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="3"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P15"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout16"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_row="3"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P16"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="3">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout9"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="3"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P9"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="4"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P1"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="4">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="4">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout10"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="4"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/slotp10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="P10"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_row="5">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/timing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="" />
+
+
+</RelativeLayout>
